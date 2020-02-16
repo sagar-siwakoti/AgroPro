@@ -70,6 +70,8 @@
 .button1 button:hover {
   background-color: gray;
 }
+
+/*DASHBOARD*/
 /*news*/
 a {
   color: #3A5F0B;
@@ -86,13 +88,13 @@ a:hover .card-outmore {
 }
 
 a:hover .thecard {
-  box-shadow: 0 10px 50px rgba(0,0,0,.6);
+  box-shadow: 0 10px 50px rgba(128, 128, 128,1);
 }
 
 .thecard {
   width: 300px;
   margin: 5% auto;
-  box-shadow: 0 1px 30px rgba(0,0,0,.4);
+  box-shadow: 0 1px 30px rgba(0,0,0,.7);
   display: block;
   background-color: #fff;
   border-radius: 4px;
