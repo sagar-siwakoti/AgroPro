@@ -1,107 +1,64 @@
 *{
-    font-family: "Rimouski";
-}
-.container{
-    width: 300px;    
-    background-color: #FFF;
-    
-    display: block;
-    margin: 0 auto;
-    
-    border-radius: 10px;
-    padding-bottom : 50px;
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.app-title{
-    
-    width: 300px;
-    height: 50px;
-    border-radius: 10px 10px 0 0;
+body{
+  font-family: "Nunito",sans-serif;
+  background: #f8f8f8;
 }
 
-.app-title p{
-    text-align: center;
-    padding: 15px;
-    margin: 0 auto;
-    font-size: 1.2em;
-    color: #293251;
+.input{
+  text-align: center;
+  margin: 100px auto;
 }
 
-.notification{
-    background-color: #f8d7da;
-    display: none;
+input[type="submit"]{
+  padding: 15px 30px;
+  background: #e7e7e7;
+  border: none;
+  border-radius: 1px;
+  font-family: "Nunito",sans-serif;
+  font-weight:bold;
+  font-size: 20px;
 }
 
-.notification p{
-    color: #721c24;
-    font-size: 1.2em;
-    margin: 0;
-    text-align: center;
-    padding: 10px 0;
+.input input[type="text"]{
+  width: 600px;
+  height: 55px;
+  padding: 5px 10px;
+  background: #e7e7e7;
+  border: none;
+  border-radius: 1px;
+  font-family: "Nunito",sans-serif;
+  font-weight:bold;
+  font-size: 20px;
 }
 
-.weather-container{
-    width: 300px;
-    height: 260px;
-    background-color: #F4F9FF;
-}
-
-.weather-icon{
-    width: 300px;
-    height: 128px;
-}
-
-.weather-icon img{
-    display: block;
-    margin: 0 auto;
-}
-
-.temperature-value{
-    width: 300px;
-    height:60px;
-}
-
-.temperature-value p{
-    padding: 0;
-    margin: 0;
-    color: #293251;
-    font-size: 4em;
-    text-align: center;
-    cursor: pointer;
-}
-
-.temperature-value p:hover{
-    
-}
-
-.temperature-value span{
-    color: #293251;
-    font-size: 0.5em;
-}
-
-.temperature-description{
-    
-}
-
-.temperature-description p{
-    padding: 8px;
-    margin: 0;
-    color: #293251;
-    text-align: center;
-    font-size: 1.2em;
-}
-
-.location{
-    
-}
-
-.location p{
-    margin: 0;
-    padding: 0;
-    color: #293251;
-    text-align: center;
-    font-size: 0.8em;
+.card{
+  width: 50%;
+  background: #e7e7e7;
+  height: 40vh;
+  margin: 50px auto;
+  border-radius: 2px;
 }
 
 
+.close{
+  float: right;
+  margin-top: -2px;
+  cursor: pointer;
+  margin-right: 20px;
+}
 
+.card h1{
+  padding: 5px 0;
+  text-align: center;
+}
+
+.card p{
+  text-align: center;
+  margin:40px 0;
+  font-size:20px;
+}
